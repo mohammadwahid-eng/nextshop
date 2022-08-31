@@ -5,9 +5,11 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Nextshop</title>
-        <link rel="icon" href="/favicon.svg" />
+        <title>Nextshop | Advance ecommerce application</title>
       </Head>
+      <main>
+        Homepage
+      </main>
     </>
   )
 }
