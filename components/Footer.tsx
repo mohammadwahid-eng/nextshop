@@ -5,7 +5,7 @@ import { FaCcAmex, FaCcDiscover, FaCcJcb, FaCcMastercard, FaCcPaypal, FaCcStripe
 const Footer: FunctionComponent = () => {
   return (
     <footer className="bg-black text-white lg:text-sm">
-      <section className="container grid px-5 gap-10 md:gap-8 md:grid-cols-2 lg:grid-cols-4 py-10">
+      <section className="lg:container grid px-5 gap-10 md:gap-8 md:grid-cols-2 lg:grid-cols-4 py-10">
         <div>
           <h4 className="font-roboto-slab text-xl lg:text-lg mb-3">Quick shop</h4>
           <ul className="grid gap-1.5">
@@ -39,9 +39,9 @@ const Footer: FunctionComponent = () => {
         <div>
           <h4 className="font-roboto-slab text-xl lg:text-lg mb-3">Contact us</h4>
           <ul className="grid gap-2">
-            <li><a href="https://goo.gl/maps/eBBPGMkW6N5i3rM39" target="_blank" rel="noreferrer" className="flex gap-3 hover:underline"><BsMap className="mt-1"/>2391 Scenic Way, Springfield, IL 62704</a></li>
-            <li><a href="tel:(555) 555-1234" className="flex items-center gap-3 hover:underline"><BsTelephone/>(555) 555-1234</a></li>
-            <li><a href="mailto:sales@nextshop.com" className="flex items-center gap-3 hover:underline"><BsEnvelope/>sales@nextshop.com</a></li>
+            <li><a href="https://goo.gl/maps/eBBPGMkW6N5i3rM39" target="_blank" rel="noreferrer" className="inline-flex gap-3 hover:underline"><BsMap className="mt-1"/>2391 Scenic Way, Springfield, IL 62704</a></li>
+            <li><a href="tel:(555) 555-1234" className="inline-flex items-center gap-3 hover:underline"><BsTelephone/>(555) 555-1234</a></li>
+            <li><a href="mailto:sales@nextshop.com" className="inline-flex items-center gap-3 hover:underline"><BsEnvelope/>sales@nextshop.com</a></li>
           </ul>
         </div>
       </section>
