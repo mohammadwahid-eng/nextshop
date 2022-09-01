@@ -5,7 +5,7 @@ import { FaCcAmex, FaCcDiscover, FaCcJcb, FaCcMastercard, FaCcPaypal, FaCcStripe
 const Footer: FunctionComponent = () => {
   return (
     <footer className="bg-black text-white lg:text-sm">
-      <section className="lg:container grid px-5 gap-10 md:gap-8 md:grid-cols-2 lg:grid-cols-4 py-10">
+      <section className="grid px-5 lg:px-10 gap-10 md:gap-8 md:grid-cols-2 lg:grid-cols-4 py-10">
         <div>
           <h4 className="font-roboto-slab text-xl lg:text-lg mb-3">Quick shop</h4>
           <ul className="grid gap-1.5">
@@ -45,10 +45,10 @@ const Footer: FunctionComponent = () => {
           </ul>
         </div>
       </section>
-      <div className="container px-5">
+      <div className="px-5 lg:px-10">
         <div className=" border-t border-cyan-50/25"></div>
       </div>
-      <section className="container px-5 flex flex-col gap-3 md:flex-row items-center py-4">
+      <section className="px-5 lg:px-10 flex flex-col gap-3 md:flex-row items-center py-4">
         <div className="grow">&copy; 2022 Nextshop. All Rights Reserved.</div>
         <div className="flex gap-1 text-3xl lg:text-2xl">
           <FaCcMastercard/>

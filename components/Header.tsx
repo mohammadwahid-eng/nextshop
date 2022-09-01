@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react"
-import { BsTelephone, BsGlobe, BsSearch, BsBag, BsHeart, BsFilterRight, BsCashCoin } from "react-icons/bs"
+import { BsGlobe, BsSearch, BsBag, BsHeart, BsFilterRight, BsCashCoin } from "react-icons/bs"
 
 const Header: FunctionComponent = () => {
   return (
