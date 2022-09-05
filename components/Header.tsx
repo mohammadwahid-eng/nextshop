@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { FunctionComponent } from "react"
 import { BsGlobe, BsSearch, BsBag, BsHeart, BsFilterRight, BsCashCoin } from "react-icons/bs"
 
@@ -19,14 +20,15 @@ const Header: FunctionComponent = () => {
       </section>
       <nav className="shadow">
         <div className="flex items-center md:gap-5 md:justify-between pr-5 md:px-5 lg:px-10">
-          <div className="p-5 cursor-pointer text-2xl md:hidden"><BsFilterRight/></div>
-          <a href="#" className="py-4 md:py-3.5 text-2xl font-roboto-slab font-black">Nextshop</a>
+          <div className="p-5 cursor-pointer text-2xl md:hidden"><BsFilterRight /></div>
+          <Link href={'/'}>
+            <a className="py-4 md:py-3.5 text-2xl font-roboto-slab font-black">Nextshop</a>
+          </Link>
           <ul className="hidden md:flex items-center uppercase font-semibold">
-            <li><a href="#" className="inline-flex text-sm p-5">New arrival</a></li>
-            <li><a href="#" className="inline-flex text-sm p-5">Sale</a></li>
-            <li><a href="#" className="inline-flex text-sm p-5">Men</a></li>
-            <li><a href="#" className="inline-flex text-sm p-5">Women</a></li>
-            <li><a href="#" className="inline-flex text-sm p-5">Kids</a></li>
+            <li><Link href={'/'}><a className="inline-flex text-sm p-5 transition hover:bg-slate-100">New Arrival</a></Link></li>
+            <li><Link href={'/'}><a className="inline-flex text-sm p-5 transition hover:bg-slate-100">Men Collection</a></Link></li>
+            <li><Link href={'/'}><a className="inline-flex text-sm p-5 transition hover:bg-slate-100">Women Collection</a></Link></li>
+            <li><Link href={'/'}><a className="inline-flex text-sm p-5 transition hover:bg-slate-100">Kids Collection</a></Link></li>
           </ul>
           <ul className="flex ml-auto md:ml-0 items-center text-xl gap-7 md:gap-6">
             <li className="py-5 cursor-pointer"><BsSearch/></li>

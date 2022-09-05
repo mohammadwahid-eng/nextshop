@@ -1,5 +1,6 @@
-import type { NextPage } from 'next'
+import { NextPage } from 'next'
 import Head from 'next/head'
+import Slider from '../components/Slider'
 
 const Home: NextPage = () => {
   return (
@@ -7,11 +8,9 @@ const Home: NextPage = () => {
       <Head>
         <title>Nextshop | Advance ecommerce application</title>
       </Head>
-      <main>
-        Homepage
-      </main>
+      <Slider />
+      homepage
     </>
   )
 }
-
 export default Home
